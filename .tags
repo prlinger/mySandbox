@@ -1,0 +1,23 @@
+np	/Users/prlinger/Desktop/PaulLingertat/Projects/Code/mySandbox/myTFEveTradeRoute-v0.py	/^import numpy as np$/;"	namespace	line:17
+plt	/Users/prlinger/Desktop/PaulLingertat/Projects/Code/mySandbox/myTFEveTradeRoute-v0.py	/^import pylab as plt$/;"	namespace	line:18
+nx	/Users/prlinger/Desktop/PaulLingertat/Projects/Code/mySandbox/myTFEveTradeRoute-v0.py	/^import networkx as nx$/;"	namespace	line:19
+tf	/Users/prlinger/Desktop/PaulLingertat/Projects/Code/mySandbox/myTFEveTradeRoute-v0.py	/^import tensorflow as tf$/;"	namespace	line:20
+tensorflow	/Users/prlinger/Desktop/PaulLingertat/Projects/Code/mySandbox/myTFEveTradeRoute-v0.py	/^import tensorflow.contrib.slim as slim$/;"	namespace	line:21
+contrib	/Users/prlinger/Desktop/PaulLingertat/Projects/Code/mySandbox/myTFEveTradeRoute-v0.py	/^import tensorflow.contrib.slim as slim$/;"	namespace	line:21
+slim	/Users/prlinger/Desktop/PaulLingertat/Projects/Code/mySandbox/myTFEveTradeRoute-v0.py	/^import tensorflow.contrib.slim as slim$/;"	namespace	line:21
+points_list	/Users/prlinger/Desktop/PaulLingertat/Projects/Code/mySandbox/myTFEveTradeRoute-v0.py	/^points_list = [(0,1), (0,2), (1,3), (1,4), (2,3), (2,4), (3,5), (4,5)]$/;"	variable	line:24
+goal	/Users/prlinger/Desktop/PaulLingertat/Projects/Code/mySandbox/myTFEveTradeRoute-v0.py	/^goal = 5$/;"	variable	line:25
+lowsecSystems	/Users/prlinger/Desktop/PaulLingertat/Projects/Code/mySandbox/myTFEveTradeRoute-v0.py	/^lowsecSystems = [2, 4]$/;"	variable	line:27
+highsecSystems	/Users/prlinger/Desktop/PaulLingertat/Projects/Code/mySandbox/myTFEveTradeRoute-v0.py	/^highsecSystems = [0, 1, 3, 5]$/;"	variable	line:29
+showGraph	/Users/prlinger/Desktop/PaulLingertat/Projects/Code/mySandbox/myTFEveTradeRoute-v0.py	/^def showGraph():$/;"	function	line:31
+Agent	/Users/prlinger/Desktop/PaulLingertat/Projects/Code/mySandbox/myTFEveTradeRoute-v0.py	/^class Agent():$/;"	class	line:45
+__init__	/Users/prlinger/Desktop/PaulLingertat/Projects/Code/mySandbox/myTFEveTradeRoute-v0.py	/^    def __init__(self):$/;"	member	line:47	class:Agent
+Agent	/Users/prlinger/Desktop/PaulLingertat/Projects/Code/mySandbox/testingFile.py	/^class Agent():$/;"	class	line:2
+__init__	/Users/prlinger/Desktop/PaulLingertat/Projects/Code/mySandbox/testingFile.py	/^    def __init__(self):$/;"	member	line:4	class:Agent
+absolute_import	/Users/prlinger/Desktop/PaulLingertat/Projects/Code/mySandbox/mnistHandwrittenDigits.py	/^from __future__ import absolute_import$/;"	namespace	line:146
+division	/Users/prlinger/Desktop/PaulLingertat/Projects/Code/mySandbox/mnistHandwrittenDigits.py	/^from __future__ import division$/;"	namespace	line:147
+print_function	/Users/prlinger/Desktop/PaulLingertat/Projects/Code/mySandbox/mnistHandwrittenDigits.py	/^from __future__ import print_function$/;"	namespace	line:148
+np	/Users/prlinger/Desktop/PaulLingertat/Projects/Code/mySandbox/mnistHandwrittenDigits.py	/^import numpy as np$/;"	namespace	line:150
+tf	/Users/prlinger/Desktop/PaulLingertat/Projects/Code/mySandbox/mnistHandwrittenDigits.py	/^import tensorflow as tf$/;"	namespace	line:151
+cnn_model_fn	/Users/prlinger/Desktop/PaulLingertat/Projects/Code/mySandbox/mnistHandwrittenDigits.py	/^def cnn_model_fn(features, labels, mode):$/;"	function	line:156
+main	/Users/prlinger/Desktop/PaulLingertat/Projects/Code/mySandbox/mnistHandwrittenDigits.py	/^def main(unused_argv):$/;"	function	line:248

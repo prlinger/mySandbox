@@ -4,9 +4,12 @@ import numpy as np
 import pylab as plt
 
 # map cell to cell, add circular cell to goal point
-points_list = [(0,1), (1,5), (5,6), (5,4), (1,2), (2,3), (2,7)]
+# points_list = [(0,1), (1,5), (5,6), (5,4), (1,2), (2,3), (2,7)]
+# 
+# goal = 7
 
-goal = 7
+points_list = [(0,1), (0,2), (1,3), (1,4), (2,3), (2,4), (3,5), (4,5)]
+goal = 5
 
 import networkx as nx
 G=nx.Graph()
@@ -18,7 +21,7 @@ nx.draw_networkx_labels(G,pos)
 # plt.show()
 
 # how many points in graph? x points
-MATRIX_SIZE = 8
+MATRIX_SIZE = 6
 
 # create matrix x*y
 R = np.matrix(np.ones(shape=(MATRIX_SIZE, MATRIX_SIZE)))
