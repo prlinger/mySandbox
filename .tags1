@@ -4,10 +4,34 @@
 !_TAG_PROGRAM_NAME	Exuberant Ctags	//
 !_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
 !_TAG_PROGRAM_VERSION	5.8	//
-absolute_import	/Users/prlinger/Desktop/PaulLingertat/Projects/Code/mySandbox/mnistHandwrittenDigits.py	/^from __future__ import absolute_import$/;"	namespace	line:146
-division	/Users/prlinger/Desktop/PaulLingertat/Projects/Code/mySandbox/mnistHandwrittenDigits.py	/^from __future__ import division$/;"	namespace	line:147
-print_function	/Users/prlinger/Desktop/PaulLingertat/Projects/Code/mySandbox/mnistHandwrittenDigits.py	/^from __future__ import print_function$/;"	namespace	line:148
-np	/Users/prlinger/Desktop/PaulLingertat/Projects/Code/mySandbox/mnistHandwrittenDigits.py	/^import numpy as np$/;"	namespace	line:150
-tf	/Users/prlinger/Desktop/PaulLingertat/Projects/Code/mySandbox/mnistHandwrittenDigits.py	/^import tensorflow as tf$/;"	namespace	line:151
-cnn_model_fn	/Users/prlinger/Desktop/PaulLingertat/Projects/Code/mySandbox/mnistHandwrittenDigits.py	/^def cnn_model_fn(features, labels, mode):$/;"	function	line:156
-main	/Users/prlinger/Desktop/PaulLingertat/Projects/Code/mySandbox/mnistHandwrittenDigits.py	/^def main(unused_argv):$/;"	function	line:248
+division	/Users/prlinger/Desktop/PaulLingertat/Projects/Code/mySandbox/qNetworkExample.py	/^from __future__ import division$/;"	namespace	line:4
+gym	/Users/prlinger/Desktop/PaulLingertat/Projects/Code/mySandbox/qNetworkExample.py	/^import gym$/;"	namespace	line:6
+np	/Users/prlinger/Desktop/PaulLingertat/Projects/Code/mySandbox/qNetworkExample.py	/^import numpy as np$/;"	namespace	line:7
+random	/Users/prlinger/Desktop/PaulLingertat/Projects/Code/mySandbox/qNetworkExample.py	/^import random$/;"	namespace	line:8
+tf	/Users/prlinger/Desktop/PaulLingertat/Projects/Code/mySandbox/qNetworkExample.py	/^import tensorflow as tf$/;"	namespace	line:9
+matplotlib	/Users/prlinger/Desktop/PaulLingertat/Projects/Code/mySandbox/qNetworkExample.py	/^import matplotlib.pyplot as plt$/;"	namespace	line:10
+plt	/Users/prlinger/Desktop/PaulLingertat/Projects/Code/mySandbox/qNetworkExample.py	/^import matplotlib.pyplot as plt$/;"	namespace	line:10
+env	/Users/prlinger/Desktop/PaulLingertat/Projects/Code/mySandbox/qNetworkExample.py	/^env = gym.make('FrozenLake-v0')$/;"	variable	line:13
+inputs1	/Users/prlinger/Desktop/PaulLingertat/Projects/Code/mySandbox/qNetworkExample.py	/^inputs1 = tf.placeholder(shape=[1,16],dtype=tf.float32)$/;"	variable	line:20
+W	/Users/prlinger/Desktop/PaulLingertat/Projects/Code/mySandbox/qNetworkExample.py	/^W = tf.Variable(tf.random_uniform([16,4],0,0.01))$/;"	variable	line:21
+Qout	/Users/prlinger/Desktop/PaulLingertat/Projects/Code/mySandbox/qNetworkExample.py	/^Qout = tf.matmul(inputs1,W)$/;"	variable	line:22
+predict	/Users/prlinger/Desktop/PaulLingertat/Projects/Code/mySandbox/qNetworkExample.py	/^predict = tf.argmax(Qout,1)$/;"	variable	line:23
+nextQ	/Users/prlinger/Desktop/PaulLingertat/Projects/Code/mySandbox/qNetworkExample.py	/^nextQ = tf.placeholder(shape=[1,4],dtype=tf.float32)$/;"	variable	line:26
+loss	/Users/prlinger/Desktop/PaulLingertat/Projects/Code/mySandbox/qNetworkExample.py	/^loss = tf.reduce_sum(tf.square(nextQ - Qout))$/;"	variable	line:27
+trainer	/Users/prlinger/Desktop/PaulLingertat/Projects/Code/mySandbox/qNetworkExample.py	/^trainer = tf.train.GradientDescentOptimizer(learning_rate=0.1)$/;"	variable	line:28
+updateModel	/Users/prlinger/Desktop/PaulLingertat/Projects/Code/mySandbox/qNetworkExample.py	/^updateModel = trainer.minimize(loss)$/;"	variable	line:29
+init	/Users/prlinger/Desktop/PaulLingertat/Projects/Code/mySandbox/qNetworkExample.py	/^init = tf.global_variables_initializer()$/;"	variable	line:35
+y	/Users/prlinger/Desktop/PaulLingertat/Projects/Code/mySandbox/qNetworkExample.py	/^y = .99$/;"	variable	line:38
+e	/Users/prlinger/Desktop/PaulLingertat/Projects/Code/mySandbox/qNetworkExample.py	/^e = 0.1$/;"	variable	line:39
+num_episodes	/Users/prlinger/Desktop/PaulLingertat/Projects/Code/mySandbox/qNetworkExample.py	/^num_episodes = 2000$/;"	variable	line:40
+jList	/Users/prlinger/Desktop/PaulLingertat/Projects/Code/mySandbox/qNetworkExample.py	/^jList = []$/;"	variable	line:42
+rList	/Users/prlinger/Desktop/PaulLingertat/Projects/Code/mySandbox/qNetworkExample.py	/^rList = []$/;"	variable	line:43
+s	/Users/prlinger/Desktop/PaulLingertat/Projects/Code/mySandbox/qNetworkExample.py	/^        s = env.reset()$/;"	variable	line:48
+rAll	/Users/prlinger/Desktop/PaulLingertat/Projects/Code/mySandbox/qNetworkExample.py	/^        rAll = 0$/;"	variable	line:49
+d	/Users/prlinger/Desktop/PaulLingertat/Projects/Code/mySandbox/qNetworkExample.py	/^        d = False$/;"	variable	line:50
+j	/Users/prlinger/Desktop/PaulLingertat/Projects/Code/mySandbox/qNetworkExample.py	/^        j = 0$/;"	variable	line:51
+Q1	/Users/prlinger/Desktop/PaulLingertat/Projects/Code/mySandbox/qNetworkExample.py	/^            Q1 = sess.run(Qout,feed_dict={inputs1:np.identity(16)[s1:s1+1]})$/;"	variable	line:65
+maxQ1	/Users/prlinger/Desktop/PaulLingertat/Projects/Code/mySandbox/qNetworkExample.py	/^            maxQ1 = np.max(Q1)$/;"	variable	line:67
+targetQ	/Users/prlinger/Desktop/PaulLingertat/Projects/Code/mySandbox/qNetworkExample.py	/^            targetQ = allQ$/;"	variable	line:68
+s	/Users/prlinger/Desktop/PaulLingertat/Projects/Code/mySandbox/qNetworkExample.py	/^            s = s1$/;"	variable	line:77
+e	/Users/prlinger/Desktop/PaulLingertat/Projects/Code/mySandbox/qNetworkExample.py	/^                e = 1.\/((i\/50) + 10)$/;"	variable	line:80
